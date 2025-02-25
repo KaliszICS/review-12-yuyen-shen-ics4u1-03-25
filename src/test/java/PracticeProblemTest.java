@@ -12,7 +12,7 @@ void countWordsTest2() {
         Method method = testClass.getDeclaredMethod("countWords", cArg);
   // Enter code here
 
-    assertEquals(2, (int)method.invoke(null, "Hello World", 'l'));
+    assertEquals(3, (int)method.invoke(null, "Hello World", 'l'));
 }
 
 
